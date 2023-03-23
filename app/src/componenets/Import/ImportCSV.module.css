@@ -1,0 +1,61 @@
+@import "../../styles/vars.css";
+
+.container {
+  display: block;
+}
+
+.importForm {
+  height: 100px;
+  width: 20rem;
+  margin: 30px auto;
+  padding: 10px;
+
+  display: flex;
+
+  background-color: rgba(86, 86, 91, 0.075);
+}
+
+.file {
+  height: 75%;
+  width: 100%;
+  margin: auto;
+  padding: 0.5em;
+
+  font-weight: bold;
+  border-radius: 3px;
+}
+.fileUnselected {
+  border: 2px solid dodgerblue;
+
+  color: dodgerblue;
+  background-color: rgba(30, 144, 255, 0.2);
+}
+.fileUnselected {
+  border: thick solid dodgerblue;
+  border-radius: 3px;
+}
+
+.fileSelected {
+  border: 2px solid green;
+
+  color: green;
+  background-color: rgba(0, 128, 0, 0.2);
+}
+.fileSelected {
+  border: thick solid green;
+  border-radius: 3px;
+}
+
+.holder {
+  margin: auto;
+  text-align: center;
+}
+
+.fileName {
+  margin: 10px 10px;
+  padding-left: 20px;
+}
+
+.importBtn {
+  margin: 10px 10px;
+}

@@ -1,0 +1,19 @@
+input {
+  text-align: left;
+}
+
+.admin {
+  height: 35px;
+  width: 250px;
+  margin: 0 auto 10px;
+  margin-top: 20px;
+  text-align: left;
+
+  font-size: medium;
+
+  display: block;
+}
+
+.addBtn {
+  font-weight: 600;
+}

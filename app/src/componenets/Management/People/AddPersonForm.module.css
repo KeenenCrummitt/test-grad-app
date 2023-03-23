@@ -1,0 +1,35 @@
+@import "../../../styles/vars.css";
+
+.plat {
+  display: flex;
+  justify-content: space-between;
+
+  height: 35px;
+  width: 250px;
+  margin: 0 auto 10px;
+  margin-top: 20px;
+
+  font-size: medium;
+
+  display: block;
+  text-align: start;
+
+  /* border: 1px solid var(--primary); */
+}
+
+.label {
+  margin: auto 0px;
+}
+
+.checkBox {
+  height: 15px;
+  width: 15px;
+
+  margin: auto 10px;
+
+  justify-self: end;
+}
+
+.submitBtn {
+  font-weight: 600;
+}

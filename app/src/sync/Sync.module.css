@@ -1,0 +1,22 @@
+@import "../styles/vars.css";
+
+.header {
+  top: 0;
+  height: 25px;
+  background-color: var(--secondary);
+}
+
+.checkbox {
+  margin-left: 50px;
+}
+.label {
+  color: white;
+  margin-left: 5px;
+}
+
+.tooltip {
+  margin-left: 20px;
+  display: inline;
+
+  color: rgb(183, 226, 243);
+}

@@ -1,0 +1,40 @@
+.parent {
+  position: relative;
+  height: 100px;
+  width: 100px;
+}
+
+.loadingSpinner {
+  position: absolute;
+
+  transform-origin: center;
+
+  top: 0;
+  left: 0;
+
+  height: 64px;
+  width: 61px;
+}
+
+.background {
+  background-image: url("../../../public/LoadingSpinner.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  animation: spin 3s linear infinite;
+}
+
+.b {
+  background-image: url("../../../public/LoadingSpinner2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

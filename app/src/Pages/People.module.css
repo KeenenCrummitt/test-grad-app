@@ -1,0 +1,15 @@
+.import {
+  margin: 0 auto;
+}
+
+.or {
+  margin: auto;
+  text-align: center;
+
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.add {
+  margin: 0 auto;
+}

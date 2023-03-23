@@ -1,0 +1,46 @@
+# Requirements
+
+- Track:
+	- Students into Graduation with gown
+	- Students gown check out
+	- Faculty gown check in
+	- Faculty gown check out
+
+- Store Student:
+	- First Name
+	- Last Name
+	- Email
+	- Department
+	- Platinum Performer
+
+- Store Faculty:
+	- First Name
+	- Last Name
+	- Email
+	- Department
+	- Image of digital Signature
+
+- Store Department:
+	- Name
+
+- Store Manager:
+	- Email
+	- Password
+	- IsAdmin
+
+- Views
+	- Student Check in View
+	- Faculty Check in View
+	- List of Graduates (Dpt. Name order, Last Name order)
+	- Faculty Check out View
+	- Student Check out View
+	- Department Add View
+	- Student Add View
+	- Faculty Add View
+	- Manager Add View
+
+- Live Syncing with all devices (React Query recommended)
+- Authentication for managers
+- Managers can only change data
+- Approval for new managers by Admin (Admin is a manager, only one Admin)
+- Optimized to have a fast workflow

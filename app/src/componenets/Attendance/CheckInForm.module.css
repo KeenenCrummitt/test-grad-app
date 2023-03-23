@@ -1,0 +1,37 @@
+.form {
+  margin-bottom: 75px;
+}
+
+.nameInput {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  margin: auto 0;
+  padding: 3px 0;
+  height: 35px;
+  font-size: x-large;
+  text-align: center;
+  width: 300px;
+  box-shadow: 2px 3px 5px rgba(1, 1, 1, 0.15);
+  border-radius: 4px;
+  border: 1px solid rgb(154, 154, 154);
+  outline: none;
+}
+
+.addBtn {
+  margin-left: 15px;
+  padding: 0 15px;
+  height: 43px !important;
+  font-size: 1.2rem;
+}
+
+.input:focus {
+  border: 1px solid rgb(23, 23, 23);
+}
+
+.name input:focus {
+  border: none;
+}

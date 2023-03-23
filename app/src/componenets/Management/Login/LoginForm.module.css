@@ -1,0 +1,23 @@
+@import "../../../styles/vars.css";
+
+.loginForm {
+  margin: auto 0;
+}
+
+.input {
+  margin: 10px;
+
+  height: 25px;
+}
+
+.btn {
+  padding: 7px;
+  font-size: medium;
+  border-radius: 25px;
+
+  cursor: pointer;
+
+  background-color: var(--primary);
+  color: white;
+  border: none;
+}

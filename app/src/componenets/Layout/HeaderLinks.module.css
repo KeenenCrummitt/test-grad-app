@@ -1,0 +1,48 @@
+@import "../../styles/vars.css";
+
+.links {
+  position: fixed;
+  top: 100px;
+  right: 0;
+
+  margin: auto 0;
+  padding: 10px;
+
+  text-align: end;
+
+  background-color: transparent;
+}
+
+/* Desktop */
+@media screen and (min-width: 1100px) {
+  .links {
+    position: inherit;
+    display: flex;
+  }
+}
+
+.listItem {
+  padding: 10px;
+}
+
+.link {
+  padding: 5px 10px;
+
+  border: 1px solid var(--primary);
+  border-radius: 25px;
+
+  font-weight: 500;
+
+  color: white;
+  background-color: var(--primary);
+  text-decoration: none;
+}
+
+.link:hover {
+  border: 1px solid var(--primary);
+  border-radius: 25px;
+
+  color: var(--primary);
+  background-color: white;
+  text-decoration: none;
+}

@@ -1,0 +1,20 @@
+.error {
+  width: 250px;
+
+  margin: 5px auto 30px;
+  padding: 0 5px;
+
+  text-align: center;
+
+  border: 2px red solid;
+}
+
+.title {
+  margin-top: 5px;
+
+  color: red;
+}
+
+.message {
+  margin-bottom: 20px;
+}

@@ -1,0 +1,25 @@
+@import "../../../styles/vars.css";
+
+.logoutForm {
+  margin: auto 0;
+}
+
+.logout {
+  padding: 7px;
+  font-size: medium;
+  font-weight: 600;
+
+  color: var(--primary);
+  background-color: white;
+  border: 1px var(--primary) solid;
+  border-radius: 25px;
+}
+
+.logout:hover {
+  cursor: pointer;
+
+  color: white;
+  background-color: var(--secondary);
+  border: 1px var(--secondary) solid;
+  border-radius: 25px;
+}

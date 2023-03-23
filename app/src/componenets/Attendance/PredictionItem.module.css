@@ -1,0 +1,15 @@
+@import "../../styles/vars.css";
+
+.predictItem {
+  margin-bottom: 10px;
+  padding: 5px 20px;
+
+  box-shadow: 3px 3px 5px rgba(86, 86, 91, 0.1);
+  border: 2px solid var(--primary);
+}
+
+.predictItem:hover {
+  cursor: pointer;
+
+  box-shadow: 3px 3px 5px rgba(86, 86, 91, 0.3);
+}

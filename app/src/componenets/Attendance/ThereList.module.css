@@ -1,0 +1,29 @@
+@import "../../styles/vars.css";
+
+.title {
+  text-align: center;
+  color: var(--primary);
+  font-size: 320%;
+}
+
+.department {
+  text-align: center;
+  color: var(--primary);
+}
+
+.departmentSection {
+  padding: 50px;
+}
+
+.departmentList {
+  padding: 5px 25px;
+  margin: auto;
+
+  width: fit-content;
+
+  border: 1px var(--secondary) solid;
+}
+
+.thereItem {
+  margin-bottom: 10px;
+}

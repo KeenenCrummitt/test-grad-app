@@ -1,0 +1,96 @@
+@import "../../styles/vars.css";
+
+.wrapper {
+  margin: 0;
+  min-height: 100vh;
+
+  background-color: var(--off-white);
+}
+
+li {
+  list-style: none;
+}
+
+:global(.center) {
+  margin: auto;
+
+  text-align: center;
+}
+
+/* add data forms */
+
+:global(.dataForm) {
+  margin: 30px 0 75px;
+
+  text-align: center;
+}
+
+:global(.input) {
+  height: 35px;
+  width: 250px;
+  margin: 0 auto 10px;
+
+  font-size: medium;
+
+  box-shadow: 2px 3px 5px rgb(86, 86, 91, 0.1);
+  border: 1px solid #858585;
+  border-radius: 4px;
+
+  display: block;
+}
+
+/* lists of data */
+
+:global(.container) {
+  display: grid;
+  row-gap: 25px;
+}
+:global(.grid-container-inline) {
+  display: flex;
+}
+
+:global(.item) {
+  padding: 10px;
+
+  width: fit-content;
+
+  border: 2px var(--secondary) solid;
+
+  background-color: white;
+}
+
+:global(.itemField) {
+  padding: 2px 10px;
+}
+
+/* buttons */
+:global(.coolBtn) {
+  padding: 0 10px;
+
+  height: 30px;
+
+  background-color: initial;
+  background-image: linear-gradient(-180deg, #ee4848, #bd2603);
+
+  border-radius: 4px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+
+  color: white;
+
+  cursor: pointer;
+
+  text-align: center;
+}
+
+:global(.coolBtn:hover) {
+  box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
+}
+
+:global(.coolBtn:disabled) {
+  background-image: linear-gradient(-180deg, #8f8f8f, #787878);
+}
+:global(.coolBtn:disabled) {
+  cursor: default;
+  box-shadow: none;
+}
